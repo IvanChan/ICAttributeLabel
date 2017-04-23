@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/ICAttributeLabel.svg?style=flat)](http://cocoapods.org/pods/ICAttributeLabel)
 [![Platform](https://img.shields.io/cocoapods/p/ICAttributeLabel.svg?style=flat)](http://cocoapods.org/pods/ICAttributeLabel)
 
+  If you are heading for UILabel drawing information, you are in the right place.
+  We calculate each line information of drawing for you, including text area each line.
+  Also provide Strikethrough for animation.
+  
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -20,11 +24,7 @@ it, simply add the following line to your Podfile:
 pod "ICAttributeLabel"
 ```
 
-  If you are heading for UILabel drawing information, you are in the right place.
-  We calculate each line information of drawing for you, including text area each line.
-  Also provide Strikethrough for animation.
-
-###Try it yourself
+### Try it yourself
   ```
     ICAttributeLabel *label = [[ICAttributeLabel alloc] initWithFrame:CGRectMake(50, 100, 200, 100)];
     label.numberOfLines = 0;
