@@ -29,7 +29,8 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
+  s.requires_arc = true
+  
   s.source_files = 'ICAttributeLabel/Classes/**/*'
   s.public_header_files = 'ICAttributeLabel/Classes/**/*.h'
 
