@@ -10,7 +10,7 @@
 
 @interface ICAttributeLabel ()
 
-@property (nonatomic, assign) int currentAnimatedLineIndex;
+@property (nonatomic, assign) NSInteger currentAnimatedLineIndex;
 @property (nonatomic, assign) CGPoint currentStrikethoughAnimatedPoint;
 @property (nonatomic, strong) CADisplayLink *displayLink;
 
@@ -188,7 +188,7 @@
             if ([text length] < currentLen )
             {
                 tempText = text;
-                currentLen = [text length];
+                currentLen = (int)[text length];
                 overLen = currentLen + 1;
             }
             else
@@ -229,7 +229,7 @@
         return attribute;
     };
     
-    int guessingTextLenForEachLine = [self.text length]/_lineCount;
+    int guessingTextLenForEachLine = (int)[self.text length]/_lineCount;
     NSString *calcText = self.text;
     
     NSMutableArray *drawingDeatil = [NSMutableArray arrayWithCapacity:_lineCount];
@@ -261,7 +261,7 @@
         if (guessingTextLenForEachLine >= [calcText length])
         {
             // some time calc may think there is n line, actually there is n+1
-            guessingTextLenForEachLine = [calcText length] - 1;
+            guessingTextLenForEachLine = (int)[calcText length] - 1;
         }
         
         if (i != _lineCount - 1)
