@@ -15,6 +15,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+iOS 8.0+
+
 ## Installation
 
 ICAttributeLabel is available through [CocoaPods](http://cocoapods.org). To install
@@ -24,7 +26,7 @@ it, simply add the following line to your Podfile:
 pod "ICAttributeLabel"
 ```
 
-### Try it yourself
+## Try it yourself
   ```
     ICAttributeLabel *label = [[ICAttributeLabel alloc] initWithFrame:CGRectMake(50, 100, 200, 100)];
     label.numberOfLines = 0;
