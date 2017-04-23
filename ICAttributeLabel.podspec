@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Sub-class of UILabel with more feature like line-calc & Strikethrough-animation.
+ There are features like how many lines & texts each line displaying, strikethrough-animation.
                        DESC
 
   s.homepage         = 'https://github.com/IvanChan/ICAttributeLabel'
