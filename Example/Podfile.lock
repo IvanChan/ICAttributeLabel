@@ -1,0 +1,16 @@
+PODS:
+  - ICAttributeLabel (0.1.0)
+
+DEPENDENCIES:
+  - ICAttributeLabel (from `../`)
+
+EXTERNAL SOURCES:
+  ICAttributeLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ICAttributeLabel: 072818027a84a7f0219d858feccbdc50af6747fd
+
+PODFILE CHECKSUM: d13322080dea58242e7e65912ee8571be42b782c
+
+COCOAPODS: 1.2.1
